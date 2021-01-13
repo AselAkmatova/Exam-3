@@ -105,7 +105,7 @@ button.redman-large:hover > i {
 
 @media only screen and (min-width: 300px) {
   .redman-myImg {
-    height: 250px;
+    height: 165px;
     width: inherit;
     max-width: 500px;
   }
@@ -130,12 +130,23 @@ button.redman-large:hover > i {
 @media only screen and (min-width: 767px) {
   .redman-myImg {
     margin: 0.5em;
-    height: 250px;
-    width: inherit;
+    height: 180px;
+    width: 180px;
     max-width: 1000px;
   }
   .redman-img-large {
     background-position: center;
+  }
+  .row {
+    margin-left: -30px;
+    width: 825px;
+  }
+  .col-12,
+  .d-flex,
+  .flex-column,
+  .flex-md-row,
+  .redman-col {
+    gap: 15px;
   }
 }
 
