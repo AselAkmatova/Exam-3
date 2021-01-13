@@ -10,7 +10,7 @@
     />
     <link
       rel="stylesheet"
-      href="bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css"
+      href="./bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css"
     />
     <link
       rel="stylesheet"
@@ -47,7 +47,77 @@
             semper. Cum sociis natoque penatibus et magnis maecenas. Donec
             ullamcorper nulla non metus auctor fringilla.
           </p>
-          <button class="description__btn">Contact me</button>
+          <button
+            type="button"
+            class="btn btn-primary description__btn"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+            data-bs-whatever="@mdo"
+          >
+            contact me
+          </button>
+          <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title mb-2" id="exampleModalLabel">
+                    Contact me
+                  </h5>
+                  <p class="modal-subtitle">
+                    Curabitur blandit tempus porttitor. Vollis ac inceptos
+                    mollisestor commodo luctus. Curabitur blandit tempus
+                    porttitor. Morbi leo risus, porta ac consectetur ac,
+                    vestibulum at eros.
+                  </p>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-2">
+                      <label
+                        for="recipient-name"
+                        class="col-form-label"
+                      ></label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="recipient-name"
+                        placeholder="Your name..."
+                      />
+                      <label
+                        for="recipient-email"
+                        class="col-form-label"
+                      ></label>
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="recipient-email"
+                        placeholder="Your email..."
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <label for="message-text" class="col-form-label"></label>
+                      <textarea
+                        class="form-control"
+                        id="message-text"
+                        placeholder="Curabitur blandit tempus porttitor. Vollis ac inceptos mollisestor commodo luctus. Fu blandit tempus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vollis  commodo luctus. Curabitur blandit. Morbi leo risus, porta ac consectetur ac, at eros."
+                      ></textarea>
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary btn-send">
+                    Send message
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="portfolio">
