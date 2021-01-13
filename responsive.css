@@ -25,4 +25,11 @@
   .description__btn {
     width: 38%;
   }
+
+  .portfolio {
+    margin-top: 55px;
+  }
+  .portfolio__text {
+    width: 100%;
+  }
 }
