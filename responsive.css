@@ -1,0 +1,28 @@
+/*++++++++++++++++++TABLET+++++++++++++++++++++++*/
+
+@media (min-width: 577px) and (max-width: 1390px) {
+  .main {
+    padding: 51px 71px 100px 67px;
+  }
+
+  .profile {
+    flex-direction: column;
+    height: 756px;
+    gap: 62px;
+  }
+
+  .profile__photo {
+    height: 355px;
+    width: 100%;
+    background: url(./images/slider-photo.jpg) no-repeat center;
+    background-size: cover;
+  }
+
+  .profile__description {
+    width: 100%;
+  }
+
+  .description__btn {
+    width: 38%;
+  }
+}
