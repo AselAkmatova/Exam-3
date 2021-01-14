@@ -106,6 +106,15 @@
     margin-left: -33px;
   }
 
+  .item_third {
+    grid-row: 3;
+  }
+
+  .item_fourth {
+    grid-row: 4;
+    grid-column: 2;
+  }
+
   .photos {
     width: 345px;
     gap: 15px;
