@@ -178,16 +178,12 @@
   margin-bottom: 28px;
 }
 
-.container {
-  margin-left: -12px;
-}
-
 .photos {
   gap: 20px;
 }
 
 .item,
-.img {
+.item__image {
   width: 244.24px;
   height: 244.24px;
 }

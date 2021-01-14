@@ -31,7 +31,7 @@
     width: 100%;
   }
   .item,
-  .img {
+  .item__image {
     width: 180px;
     height: 180px;
   }
@@ -92,7 +92,7 @@
     margin-bottom: 35px;
   }
   .item,
-  .img {
+  .item__image {
     width: 165px;
     height: 165px;
   }
@@ -125,7 +125,7 @@
 
 @media (min-width: 470px) and (max-width: 720px) {
   .item,
-  .img {
+  .item__image {
     width: 175px;
     height: 175px;
   }
