@@ -30,10 +30,28 @@
   .portfolio__text {
     width: 100%;
   }
+  .item,
+  .img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .row,
+  .photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: -33px;
+  }
+
+  .photos {
+    width: 765px;
+    gap: 15px;
+  }
 
   .footer {
     height: 205px;
-    margin-top: -58px;
+    margin-top: -47px;
   }
 }
 
