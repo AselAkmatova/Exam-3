@@ -59,8 +59,7 @@
 
   .profile {
     flex-direction: column;
-    gap: 62px;
-    height: 887px;
+    height: 886px;
   }
 
   .profile__photo {
@@ -70,6 +69,10 @@
 
   .profile__description {
     width: 100%;
+  }
+
+  .description__title {
+    height: 117px;
   }
 
   .description__btn {

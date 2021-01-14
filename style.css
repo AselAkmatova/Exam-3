@@ -57,13 +57,8 @@
   font-size: 30px;
   line-height: 34px;
   font-weight: 700;
-}
-
-.description__line {
-  background-color: var(--header-bg-color);
-  height: 4px;
-  border: var(--header-bg-color);
-  margin-top: 14px;
+  height: 85px;
+  border-bottom: 4px solid var(--header-bg-color);
 }
 
 .description__subtitle {
@@ -71,6 +66,7 @@
   line-height: 28px;
   font-weight: 700;
   margin-bottom: 29px;
+  margin-top: 14px;
 }
 
 .description__text {
