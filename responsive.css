@@ -1,5 +1,5 @@
 @media (min-width: 577px) and (max-width: 1390px) {
-  .main {
+  .content {
     padding: 51px 71px 100px 67px;
   }
 
@@ -53,7 +53,7 @@
 }
 
 @media (max-width: 576px) {
-  .main {
+  .content {
     padding: 51px 17px 100px 17px;
   }
 
