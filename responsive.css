@@ -41,7 +41,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    margin-left: -33px;
   }
 
   .photos {
@@ -51,7 +50,7 @@
 
   .footer {
     height: 205px;
-    margin-top: -47px;
+    margin-top: -50px;
   }
 }
 
