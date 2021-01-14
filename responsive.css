@@ -117,6 +117,36 @@
   .footer {
     margin-top: -45px;
   }
+
+  .modal-content {
+    width: 300px;
+    height: 650px;
+  }
+
+  .modal-header,
+  .modal-body {
+    margin: 0;
+  }
+
+  #recipient-name,
+  #recipient-email {
+    display: block;
+    width: 250px;
+  }
+
+  #message-text {
+    width: 250px;
+    height: 80px;
+  }
+
+  .btn,
+  .btn-primary,
+  .btn-send {
+    width: 250px;
+    margin: 0 20px 0 0;
+    font-size: 16px;
+    font-weight: normal;
+  }
 }
 
 @media (min-width: 470px) and (max-width: 720px) {
@@ -136,6 +166,30 @@
   .photos {
     width: 400px;
   }
+
+  .modal-content {
+    width: 500px;
+  }
+
+  .modal-header,
+  .modal-body {
+    margin: 0;
+  }
+
+  #recipient-name,
+  #recipient-email {
+    display: block;
+  }
+
+  #message-text {
+    width: 380px;
+    height: 100px;
+  }
+
+  .btn-send {
+    width: 300px;
+    margin: 0 170px 0 0;
+  }
 }
 
 @media (min-width: 721px) and (max-width: 855px) {
@@ -147,5 +201,28 @@
   }
   .photos {
     width: 400px;
+  }
+  .modal-content {
+    width: 500px;
+  }
+
+  .modal-header,
+  .modal-body {
+    margin: 0;
+  }
+
+  #recipient-name,
+  #recipient-email {
+    display: block;
+  }
+
+  #message-text {
+    width: 380px;
+    height: 100px;
+  }
+
+  .btn-send {
+    width: 300px;
+    margin: 0 170px 0 0;
   }
 }
