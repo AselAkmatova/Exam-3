@@ -122,3 +122,34 @@
     margin-top: -45px;
   }
 }
+
+@media (min-width: 470px) and (max-width: 720px) {
+  .item,
+  .img {
+    width: 175px;
+    height: 175px;
+  }
+
+  .row,
+  .photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+
+  .photos {
+    width: 400px;
+  }
+}
+
+@media (min-width: 721px) and (max-width: 855px) {
+  .row,
+  .photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .photos {
+    width: 400px;
+  }
+}
