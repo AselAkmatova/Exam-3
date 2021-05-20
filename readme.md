@@ -1,3 +1,3 @@
-# Exam 3
+# Exam-3
 
 # Asel Akmatova
